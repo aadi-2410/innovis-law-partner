@@ -200,7 +200,7 @@
 }
 
 .review-section {
-    background-image: url("/assets/images/review-bg.png");
+    background-image: url("../images/review-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-block: 70px;
