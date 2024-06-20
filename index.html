@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </head>
   <body>
-    <section class="navbar-section">
+    <section class="navbar-section px-0">
       <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
         <div class="container-width d-flex justify-content-between align-items-center">
           <a class="navbar-brand" href="#">
@@ -47,7 +47,7 @@
                 <a class="nav-link" aria-current="page" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Team</a>
+                <a class="nav-link d-sm-none d-block" aria-current="page" href="#">Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">About</a>
@@ -61,7 +61,7 @@
       </nav>
     </section>
 
-    <section class="header-section">
+    <section class="header-section px-0">
         <video src="assets/images/header-law.mp4" autoplay loop muted class="header-video"></video>
         <div class="overlay"></div>
         <div class="header-content">
@@ -76,22 +76,22 @@
             <div>
                 <img src="assets/images/count-1.png" alt="">
                 <div class="count-number">10+</div>
-                <div>Years in Business</div>
+                <div class="count-text">Years in Business</div>
             </div>
             <div>
                 <img src="assets/images/count-2.png" alt="">
                 <div class="count-number">1500+</div>
-                <div>Successful Cases</div>
+                <div class="count-text">Successful Cases</div>
             </div>
             <div>
                 <img src="assets/images/count-3.png" alt="">
                 <div class="count-number">1000+</div>
-                <div>Satisfied Clients</div>
+                <div class="count-text">Satisfied Clients</div>
             </div>
             <div>
                 <img src="assets/images/count-4.png" alt="">
                 <div class="count-number">25+</div>
-                <div>Pro Consultants</div>
+                <div class="count-text">Pro Consultants</div>
             </div>
         </div>
     </section>
@@ -101,7 +101,7 @@
             <div>Bouquet of Services</div>
             <div>We cater all the major verticals</div>
         </div>
-        <div class="service-card-container">
+        <div class="service-card-container landing-page">
             <div class="service-card-div">
                 <div class="overflow-hidden service-img-parent">
                     <img class="service-card-img" src="assets/images/service-1.png" alt="">
@@ -330,6 +330,28 @@
                 </div>
             </div>
         </div>
+        <div class="mobile-team-card-container mt-3">
+            <div class="d-flex gap-3 align-items-center justify-content-center px-2 w-full">
+                <div class="mobile-profile-div text-center">
+                    <img src="assets/images/1.ankur.png" alt="">
+                    <div class="mobile-profile-name mt-2 mb-1 px-2">Adv Ankur Pastor</div>
+                    <div class="mobile-profile-post px-2 pb-2">Managing Partner</div>
+                </div>
+                <div class="mobile-profile-div text-center">
+                    <img src="assets/images/1.ankur.png" alt="">
+                    <div class="mobile-profile-name mt-2 mb-1 px-2">Adv Ankur Pastor</div>
+                    <div class="mobile-profile-post px-2 pb-2">Partner</div>
+                </div>
+                <div class="mobile-profile-div text-center">
+                    <img src="assets/images/1.ankur.png" alt="">
+                    <div class="mobile-profile-name mt-2 mb-1 px-2">Adv Ankur Pastor</div>
+                    <div class="mobile-profile-post px-2 pb-2">Partner</div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="custom-btn">View More</button>
+            </div>
+        </div>
     </section>
 
     <section class="address-section">
@@ -338,21 +360,21 @@
                 <div>Our Location</div>
                 <div>GET In TOUCH with Team Innovis</div>
             </div>
-            <div class="d-flex justify-content-between gap-5">
+            <div class="d-flex justify-content-between gap-sm-5 gap-3 mt-5 flex-wrap">
                 <div class="address-div text-center">
-                    <div class="fs-4 mb-2 mt-5 fw-bold address-haeding">Bhopal</div>
+                    <div class="fs-4 mb-2 fw-bold address-haeding">Bhopal</div>
                     <div>704, Vijay Stambh, Opp. Vishal Megamart Zone-I - M.P. Nagar, Bhopal - 462023 (M.P.) India</div>
                 </div>
                 <div class="address-div text-center">
-                    <div class="fs-4 mb-2 mt-5 fw-bold address-haeding">Indore</div>
+                    <div class="fs-4 mb-2 fw-bold address-haeding">Indore</div>
                     <div>801, Victoria Urban, 12 Park Rd, Vallabh Nagar, Indore, (M.P.) India</div>
                 </div>
                 <div class="address-div text-center">
-                    <div class="fs-4 mb-2 mt-5 fw-bold address-haeding">Bengaluru</div>
+                    <div class="fs-4 mb-2 fw-bold address-haeding">Bengaluru</div>
                     <div>Golden Square Services And Virtual offices, Vittal Mallya Road, Bengaluru, Karnatak 560001</div>
                 </div>
                 <div class="address-div text-center">
-                    <div class="fs-4 mb-2 mt-5 fw-bold address-haeding">Mumbai</div>
+                    <div class="fs-4 mb-2 fw-bold address-haeding">Mumbai</div>
                     <div>206, 2nd floor, Aqua, Church gate Chambers, 5 New Marine Lines, Mumbai 400020</div>
                 </div>
             </div>
@@ -360,15 +382,15 @@
     </section>
 
     <section class="footer-section" style="background-image: url(assets/images/footer-bg.png);">
-        <div class="inner-footer-section d-flex gap-5 justify-content-between">
-            <div class="footer-about">
+        <div class="inner-footer-section row ms-auto me-auto">
+            <div class="col-12 col-sm-6 col-lg-4 footer-about">
                 <div class="footer-heading">- About</div>
                 <div class="mb-2">Innovis Law Partners are committed towards helping corporations & individuals to achieve desired results within optimum effort and time.</div>
-                <div class="footer-contact"><strong>Call Us:</strong> +91-9144526224</div>
-                <div class="footer-contact"><strong>Raech Us At:</strong> info@innovispartners.com</div>
+                <div class="footer-contact"><strong>Call Us:</strong> <a href="tel: +91-9144526224">+91-9144526224</a></div>
+                <div class="footer-contact"><strong>Reach Us At:</strong> <a href="mailto:info@innovispartners.com">info@innovispartners.com</a></div>
             </div>
-            <div class="footer-list d-flex gap-2 justify-content-between">
-                <div>
+            <div class="footer-list mt-4 mt-lg-0 d-flex justify-content-between row ms-auto me-auto col-12 col-sm-12 col-lg-8">
+                <div class="col-12 col-sm-4 ps-0 pe-0">
                     <div class="footer-heading">- Services</div>
                     <ul class="ps-4">
                         <li>Consulting</li>
@@ -377,7 +399,7 @@
                         <li>Arbitration</li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-12 col-sm-4 ps-0 pe-0">
                     <div class="footer-heading">- Verticals</div>
                     <ul class="ps-4">
                         <li>Corporate</li>
@@ -386,7 +408,7 @@
                         <li>Criminal</li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-12 col-sm-4 ps-0 pe-0">
                     <div class="footer-heading">- Legal</div>
                     <ul class="ps-4">
                         <li>Terms</li>
